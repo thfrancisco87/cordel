@@ -1,0 +1,62 @@
+@font-face {
+    font-family:myfont ;
+    src: url(fontes/Story_Script/);
+}
+body{
+    background-color: black;
+    font-family: myfont;
+}
+header{
+    display: block;
+    color: white;
+    font-size: 40px;text-align: center;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{text-decoration: underline}
+.normal{
+    width: 100%;
+    display: block;
+    background-color: white;
+    color:black; font-size: 50px;
+
+}
+#img1{
+    width: 40%;
+    display:flex;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    background-image: url(imagens/background001.jpg);
+    background-position: right;
+    background-size: 50% auto;
+    padding-right: 70% ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#img2{
+     width: 40%;
+     transform: ;
+    display:flex;
+    background-color:black;
+    color: black;
+    font-size: 50px;
+    background-image: url(imagens/background002.jpg);
+    background-position: right;
+    5background-size: 50% auto;
+    padding-right: 70% ;
+    background-size: 50%;
+    background-attachment: fixed;
+
+
+}
+footer{
+    width: 100%;
+    text-align: center;
+    display: block;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
